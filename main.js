@@ -38,3 +38,12 @@ const changeTransparanceyFeathers=function(){
 
 editFeather.addEventListener('click',changeTransparanceyFeathers)
 
+const editDisneyPic =document.querySelector('#biggify')
+
+const growDisneyPic=function(){
+
+   editDisneyPic.style.width=('200px')
+
+}
+
+editDisneyPic.addEventListener('mouseover',growDisneyPic)
